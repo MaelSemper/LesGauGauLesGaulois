@@ -25,9 +25,9 @@ public class Scenario {
 		
 		romain.parler("UN GAU GAU... UN GAULOIS !!");
 		
-		asterix.frapper(romain);
-		asterix.frapper(romain);
-		asterix.frapper(romain);
+		for(int i = 0;i<3;i++) { 
+		asterix.frapper(romain);}
+
 
 	}
 

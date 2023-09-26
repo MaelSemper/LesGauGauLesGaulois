@@ -17,11 +17,11 @@ public class Chef {
 	}
 	
 	private void parler(String text) {
-		// TODO Auto-generated method stub
+
 		System.out.println(prendreParole()+"<"+text+">");
 	}
 	private String prendreParole() {
-		// TODO Auto-generated method stub
+
 		return "Le chef "+nom+" du village "+ village.getNom() + " : ";
 	}
 	
